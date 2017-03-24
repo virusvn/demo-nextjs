@@ -11,7 +11,6 @@ export default class App extends Component {
         }
 
         const res = await fetch(`https://api.pokemontcg.io/v1/cards?page=${page}&pageSize=12`)
-        console.log(res)
         let data = await res.json()
         data.page = page
         return data;
