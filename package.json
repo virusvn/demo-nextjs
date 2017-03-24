@@ -1,0 +1,14 @@
+{
+  "name": "demo-nextjs",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Fullstack Station",
+  "website": "http://fullstackstation.com",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^1.2.3"
+  },
+  "scripts": {
+    "dev": "next -p 3333"
+  }
+}
